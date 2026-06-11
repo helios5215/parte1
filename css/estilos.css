@@ -12,10 +12,46 @@
 }
 .h1{
     grid-row: 1/2;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
 }
 .h2{
     grid-row: 2/3;
 }
 .h3{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
     grid-row: 3/4;
+}
+.ca{
+    
+    align-items: center;
+    align-content: center;
+}
+.nombre{
+    
+    display: grid;
+    grid-template-columns: repeat(5,40px);
+    grid-template-rows: repeat(6,40px);
+    
+}
+.can{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+.nh1{
+    background-color: yellow;
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+.nh2{
+    background-color: yellow;
+    grid-column: 2/5;
+    grid-row: 5/6;
 }

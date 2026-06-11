@@ -1,0 +1,21 @@
+.b{
+    border: 5px solid black;
+}
+.b1{
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+.padre{
+    display: grid;
+    grid-template-rows: 1fr  5fr  1fr;
+    min-height: 100vh;
+}
+.h1{
+    grid-row: 1/2;
+}
+.h2{
+    grid-row: 2/3;
+}
+.h3{
+    grid-row: 3/4;
+}
